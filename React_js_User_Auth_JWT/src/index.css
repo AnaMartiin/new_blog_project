@@ -1,0 +1,319 @@
+ body , html {
+  margin-top: 20em;
+  padding: 20em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+  /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,166,103,1) 0%, rgba(50,199,212,1) 51%, rgba(45,166,103,1) 100%); */
+
+
+.desktop{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,166,103,1) 0%, rgba(50,199,212,1) 51%, rgba(45,166,103,1) 100%);
+
+}
+/* .mobile{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,166,103,1) 0%, rgba(50,199,212,1) 51%, rgba(45,166,103,1) 100%);
+
+} */ 
+
+
+
+
+
+
+.register_form {
+  display: flex;
+  flex-direction: column;
+  width:19.1%;
+  margin:auto;
+  border:1px solid #ddd; border-radius: 1em;
+  padding:20px;
+  margin-top: 5%;
+  margin-inline-end: 4em;
+  padding-top: 1em;
+  position: relative;
+
+}
+
+.homebodyfull{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-column-gap: 0;
+  /* padding: 3px;
+  padding: 3px; */
+  margin-top: 20px;
+  padding-top: 8em; 
+  margin: 20px;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,166,103,1) 0%, rgba(50,199,212,1) 51%, rgba(45,166,103,1) 100%); 
+
+
+
+
+}
+
+.homebody{ 
+padding-top: 10%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 0;
+margin: 0;
+position: relative;
+width: 80%;
+ margin-top: 10px;
+margin-bottom: 10px;
+padding-top: 9em;
+
+
+
+
+/* padding: 3px;
+padding-top: 1em; */
+}
+
+.homebody img {
+
+  height: 80%;
+  width:  80%;
+  margin: 1em;
+/* margin-top: 12em; */
+  /* padding-bottom: 1em; */
+  /* border-radius: 100%  */
+
+
+}
+
+.register_form  input, button {
+  padding:10px;
+  margin:5px;
+  padding-top: 1em;
+  outline: none;
+  border-color: aquamarine;
+  border-block-start-color: aqua;
+  border-collapse: collapse;
+  border-radius: 1.5em;
+  background-position: absolute
+
+}
+
+button:hover{
+  background: transparent;
+  color : white;
+}
+
+.videos {
+  width: 100px;
+  position: sticky;
+  left: 75%; 
+  position: absolute;
+  /* position: fixed; 
+  /* grid-auto-columns: 1fr 1fr 1fr 1fr ; */
+
+   margin-top: 6%;  
+
+}  
+/* 
+.videos iframe {
+width: 280%; 
+
+} */
+
+/* .splitright {
+
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    padding-top: 20px;
+    right: 0;
+  
+} */
+
+
+.categories_mainpage li {
+  /* display: -webkit-inline-box; */
+  text-align: center; 
+width: 75%;
+border-radius : 20%;
+margin-top: 20%
+/* margin: 3em; */
+
+
+}
+.categories_mainpage img{
+  /* display: -webkit-inline-box; */
+  width: 100%;
+border-radius : 20% 20% 20% 20% ;
+/* margin: 3em; */
+padding-top: 1em
+
+
+}
+
+.categories_full_page {
+display: flex;
+/* grid-template-columns: 80% 20%;
+grid-column-gap: 0; */
+padding: 3px;
+padding: 3px;
+padding-top: 9em; 
+} 
+
+.categories_full_page ul{
+width: 70%;
+  } 
+
+
+/* .full_screen {
+
+  background : white 
+} */
+
+ .grid_in_categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  width: 70%;
+
+} 
+
+.main_box img {
+
+width: 400px;
+/* height: 30%; */
+
+}
+.main_box {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+padding: 1em;
+max-width: 100%;
+
+}
+@media screen and (max-width:400px)  {
+  .main_box img {
+    width: 100%
+
+  }
+
+}
+.inner_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 5%;
+  
+}
+p{
+  padding-top: 0;
+    margin-top: 0;
+    margin-left: 10px;
+}
+.centered_text{
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.centered_text h1 {
+  text-align: center;
+  display: block;
+  width: 100%;
+  /* margin-bottom: 5%;
+  margin-left: 9%; */
+
+
+ }
+/* 
+.register_form_posts_of_single_category {
+
+    padding:10px;
+    margin:300px;
+    padding-top: 1em;
+    /* outline: none; */
+    /* border-color: aquamarine;
+    border-block-start-color: aqua; */
+    /* border-collapse: collapse; */
+    /* border-radius: 1.5em; */
+    /* background-position: absolute */  
+
+
+
+/* background white in pages
+
+
+*/
+@media screen and (max-width:200px) {
+.videos_for_mobile {
+
+  width: 10%;
+  margin-top: 10%
+
+}}
+
+
+
+.margin_in_images_categories  {
+margin-top: 10%;
+}
+
+.allposts{
+
+  height: 75vh;
+  width: 75vw;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  grid-gap: 1%;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  justify-content: space-around;
+  text-align: center;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+/* .allpostsvideo {
+
+flex-direction: row
+
+} */
+
+
+.button_place {
+width: 50%;
+margin-bottom: 2em;
+position: relative;
+
+
+}
+
+.homepage{
+
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-column-gap: 0;
+  /* padding: 3px;
+  padding: 3px; */
+  margin-top: 10%;
+  padding-top: 4em; 
+  margin: 20px;
+
+}
+/* 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+  }
+  
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  } */
